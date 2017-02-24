@@ -1,0 +1,31 @@
+h1.head{
+  text-align: center;
+<<<<<<< HEAD
+  background-image: url("../IMAGES/logoBig.png");
+=======
+  background-image: ("IMAGES/logoBig.png");
+>>>>>>> 4b0583ab025808aca595312b6c436b71f0c29ce0
+  border-bottom-width: thick;
+}
+.jumbotron{
+  background-color: #F15A29;
+}
+.im{
+  margin-left: 300px;
+  margin-top: 90px;
+}
+#my{
+  display: table-caption;
+  column-count: 4;
+  column-gap: normal;
+  column-rule: 1em;
+  text-align: center;
+}
+<<<<<<< HEAD
+.log {
+  text-align: center;
+=======
+.thick{
+   font-size:20px;
+>>>>>>> 4b0583ab025808aca595312b6c436b71f0c29ce0
+}
