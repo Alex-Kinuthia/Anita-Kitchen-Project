@@ -1,31 +1,254 @@
-h1.head{
-  text-align: center;
-<<<<<<< HEAD
-  background-image: url("../IMAGES/logoBig.png");
-=======
-  background-image: ("IMAGES/logoBig.png");
->>>>>>> 4b0583ab025808aca595312b6c436b71f0c29ce0
-  border-bottom-width: thick;
+body {
+  font-family: arial, Helvetica, sans-serif;
+  font-size: 15px;
+  line-height: 1.5;
+  padding: 0;
+  margin: 0;
+  background-color: #f4f4f4;
 }
-.jumbotron{
+
+header {
+  font-family: georgia;
+}
+
+#branding {
+  text-align: center;
+  margin-left: 185px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+form {
+  color: red;
+}
+
+#happy {
+  padding: 40px;
+  background-color: white;
+  font-size: 36;
+  height: 105px;
+}
+
+#party {
+  padding: 40px;
+  background-color: orange;
+  margin-bottom: 50px;
+  height: 105px;
+}
+
+#breakfast {
+  background-image: url("../images/foodtop/breakfast.jpg");
+  height: 210px;
+  text-align: center;
+  color: white;
+}
+
+#lunchez {
+  background-image: url("../images/foodtop/lunch.jpg");
+  height: 210px;
+  text-align: center;
+  color: white;
+}
+
+#dinner {
+  background-image: url("../images/foodtop/dinner.jpg");
+  height: 210px;
+  text-align: center;
+  color: white;
+}
+
+.wah {
+  background-image: url(../images/backgrounds/foodsBg.jpg);
+}
+
+
+/* global */
+
+.container {
+  width: 80%;
+  margin: auto;
+  overflow: hidden;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+.button_1 {
+  height: 38px;
+  background: #e8491d;
+  border: 0;
+  padding-left: 20px;
+  padding-right: 20px;
+  color: white;
+}
+
+.dark {
+  padding: 15px;
+  background: #F15A29;
+  color: white;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+
+/* header */
+
+header {
+  background-image: url("../images/backgrounds/landing.jpg");
+  color: white;
+  padding-top: 30px;
+  min-height: 70px;
+  border-bottom: #e8491d 3px solid;
+}
+
+header a {
+  color: ffffff;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 16;
+}
+
+header li {
+  float: left;
+  display: inline;
+  padding: 0 20px 0 20px;
+}
+
+header #branding {
+  float: left;
+}
+
+header #branding h1 {
+  margin: 0;
+}
+
+header nav {
+  float: right;
+  margin-top: 10px;
+}
+
+header .highlight, header .current a {
+  color: #e8491d;
+  font-weight: bold;
+}
+
+header a:hover {
+  color: #cccccc;
+}
+
+#lunch {
+  background-image: url("../IMAGES/subscribe.jpg");
+  padding: 15px;
+  color: white;
+  margin-top: 0px;
+  margin-bottom: -20px;
+  padding-top: 50px;
+  height: 250px;
+  width: 100%;
+}
+
+#lunch h1 {
+  text-align: center;
+}
+
+#lunch form {
+  float: left;
+  margin-top: 15px;
+  margin-left: 500px;
+}
+
+#lunch input[type="email"] {
+  padding: 4px;
+  height: 25px;
+  width: 250px;
+}
+
+//*********/
+.table {
+  background: #FFFFFF;
+  color: #F15A29;
+  width: 100%;
+}
+
+.menu-tabs {
+  margin: 0px 200px 0px 200px;
+  padding-top: 100px;
+  border: 0pt;
+}
+
+.tab-content {
+  color: white;
+}
+
+.menu-tabs .nav ul:first-child {
+  color: #F15A29;
+}
+
+h4 {
+  text-align: center;
+}
+
+menu-tabs .nav li a:active {
+  color: #F15A29;
+  text-decoration: none;
+  border: 0pt;
+}
+
+.testimonials {
+  text-align: center;
+  margin: 75px 100px 75px 100px;
+  border: 10px solid #fff;
+  box-shadow: -1px 1px 5px 4px #E3E3E3;
+  padding: 20px 20px 20px 20px;
+}
+
+.testimonials h4 {
+  color: #F15A29;
+}
+
+//*******//
+
+/*sidebar*/
+
+aside#sidebar {
+  float: right;
+  width: 30%;
+  margin-top: 10px;
+}
+
+aside#sidebar .quote input, aside#sidebar .quote textarea {
+  width: 90%;
+  padding: 5px;
+}
+
+
+/*main col*/
+
+article#main-col {
+  float: left;
+  width: 90%;
+}
+
+
+/**delicacies**/
+
+ul#delicacies li {
+  list-style: none;
+  padding: 20px;
+  border: #cccccc solid 1px;
+  margin-bottom: 5px;
+  background: #e6e6e6;
+}
+
+
+/*beginning of footer*/
+
+footer {
+  padding: 20px;
+  margin-top: 20px;
+  color: #ffffff;
   background-color: #F15A29;
-}
-.im{
-  margin-left: 300px;
-  margin-top: 90px;
-}
-#my{
-  display: table-caption;
-  column-count: 4;
-  column-gap: normal;
-  column-rule: 1em;
   text-align: center;
-}
-<<<<<<< HEAD
-.log {
-  text-align: center;
-=======
-.thick{
-   font-size:20px;
->>>>>>> 4b0583ab025808aca595312b6c436b71f0c29ce0
 }
